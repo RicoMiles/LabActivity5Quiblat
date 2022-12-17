@@ -8,10 +8,7 @@ public class SimpleCalcGUI {
     private JTextField tfNumber2;
     private JComboBox cbOperations;
     private JButton btnCompute;
-    private JLabel lblResult;
+    private JTextField lblResult;
 
-    public static void main(String[] args){
-        JFrame window = new JFrame("Leap Year Checker");
-        window.setVisible(true);
-    }
+
 }
