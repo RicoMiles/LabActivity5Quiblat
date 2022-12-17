@@ -25,6 +25,13 @@ public class LeapYearGUI extends JFrame{
                 boolean flag = true;
                 int year = 0;
 
+                    try {
+                        year = (int) Double.parseDouble(tfYear.getText());
+                    }catch(Exception a){
+                        JOptionPane.showMessageDialog(null,"Enter a Number");
+                        flag = false;
+                    }
+                    if(flag){
                         if (year % 400 == 0) {
                             JOptionPane.showMessageDialog(null, "Leap year");
                         } else if(year % 100 != 0 && year % 4 == 0){
@@ -33,6 +40,7 @@ public class LeapYearGUI extends JFrame{
                             JOptionPane.showMessageDialog(null, "Not a leap year");
                         }
                     }
+                }
 
         });
     }
