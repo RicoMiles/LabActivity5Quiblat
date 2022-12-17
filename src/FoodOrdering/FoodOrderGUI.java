@@ -13,10 +13,8 @@ public class FoodOrderGUI {
     private JRadioButton rb5;
     private JRadioButton rb10;
     private JRadioButton rb15;
+    private JRadioButton rbNone;
     private JButton btnOrder;
 
-    public static void main(String[] args){
-        JFrame window = new JFrame("Leap Year Checker");
-        window.setVisible(true);
-    }
+
 }
