@@ -10,5 +10,7 @@ public class SimpleCalcGUI {
     private JButton btnCompute;
     private JTextField lblResult;
 
+    public static void main(String[] args) {
 
+    }
 }
