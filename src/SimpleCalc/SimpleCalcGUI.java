@@ -9,4 +9,9 @@ public class SimpleCalcGUI {
     private JComboBox cbOperations;
     private JButton btnCompute;
     private JLabel lblResult;
+
+    public static void main(String[] args){
+        JFrame window = new JFrame("Leap Year Checker");
+        window.setVisible(true);
+    }
 }
