@@ -32,11 +32,10 @@ public class LeapYearGUI extends JFrame{
                         JOptionPane.showMessageDialog(null,"Enter a Number");
                         flag = false;
                     }
-
-                    if(year == 0) {
-                        JOptionPane.showMessageDialog(null,"Input must be nonzero");
+                    if (flag){
+                        if(year == 0) {
+                            JOptionPane.showMessageDialog(null,"Input must be nonzero");
                     }else {
-                        if (flag) {
                             if (year % 400 == 0) {
                                 JOptionPane.showMessageDialog(null, "Leap year");
                             } else if (year % 100 != 0 && year % 4 == 0) {
